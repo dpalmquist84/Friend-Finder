@@ -124,24 +124,25 @@
   </div>
 
   <script type="text/javascript">
+    // Question: What does this code do?
     $("#add-btn").on("click", function (event) {
       event.preventDefault();
 
-      var friend = {
+      var friends = {
         name: $("#name").val().trim(),
         sports: $("#sports").val(),
         reading: $("#reading").val(),
         concerts: $("#concerts").val(),
         dinner: $("#dinner").val(),
         home: $("#home").val()
-      };
-    
+      }
+    }
 
     $.post("/api/friends", friend)
     .done(function (data) {
       console.log(data);
       alert(`added ${friend} to friends`)
-    });
+    })
     });
   </script>
 
