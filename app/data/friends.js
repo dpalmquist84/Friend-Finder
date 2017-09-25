@@ -8,6 +8,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path")
 <<<<<<< HEAD
+<<<<<<< HEAD
 const server = require("../../server.js")
 const app = require("../../server.js")
 
@@ -16,9 +17,13 @@ const app = require("../../server.js")
 =======
 const app = express();
 >>>>>>> parent of 8b37625... changes to the routes
+=======
+const app = express();
+>>>>>>> parent of 8b37625... changes to the routes
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -50,3 +55,5 @@ module.exports = friendsArray;
 =======
 >>>>>>> parent of 8b37625... changes to the routes
 >>>>>>> 793694c32cd1c14cd8244a74b1d8271cf41856e7
+=======
+>>>>>>> parent of 8b37625... changes to the routes
