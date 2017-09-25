@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
@@ -64,10 +62,3 @@ app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
 
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
-
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
