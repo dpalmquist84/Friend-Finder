@@ -116,11 +116,11 @@
 
 
           // Then display the remaining fields in the HTML (Section Name, Date, URL)
-          $("#tableWell-" + i + 1).html(`<h2><span class='label label-primary'> </span> | ${current.name} total: ${current.total}  <img src="${current.photo}"> </h2>`);
+          $("#tableWell-" + i + 1).append(`<h2><span class='label label-primary'> </span> | ${current.name} total: ${current.total}  <img src="${current.photo}"> </h2>`);
           if (bestFriend){
-          $("#tableWell-" + i + 1).html(`<h2><span class='label label-primary'>Your new best Friend </span> | ${bestFriend.name} total: ${bestFriend.total}  <img src="${bestFriend.photo}"> </h2>`);
+          $("#tableWell-" + i + 1).append(`<h2><span class='label label-primary'>Your new best Friend </span> | ${bestFriend.name} total: ${bestFriend.total}  <img src="${bestFriend.photo}"> </h2>`);
         } else {
-            $("#tableWell-" + i + 1).html(`<h2>Best Friend not found 😦</h2>`)
+            $("#tableWell-" + i + 1).append(`<h2>Best Friend not found 😦</h2>`)
         }
     }
       });
