@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 
 const app = express();
-
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -57,6 +57,7 @@ module.exports = function(app){
     }
   });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   app.post("/api/clear", function() {
@@ -115,3 +116,8 @@ module.exports = function(app){
 
 
 >>>>>>> 2cdf4114a030655ddc03fa527b84e09faafe6638
+=======
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
+>>>>>>> parent of 8b37625... changes to the routes

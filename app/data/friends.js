@@ -2,14 +2,19 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path")
+<<<<<<< HEAD
 const server = require("../../server.js")
 const app = require("../../server.js")
 
 =======
 >>>>>>> 2cdf4114a030655ddc03fa527b84e09faafe6638
+=======
+const app = express();
+>>>>>>> parent of 8b37625... changes to the routes
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   
@@ -34,3 +39,5 @@ module.exports = post();
 
 module.exports = friendsArray;
 >>>>>>> 2cdf4114a030655ddc03fa527b84e09faafe6638
+=======
+>>>>>>> parent of 8b37625... changes to the routes
