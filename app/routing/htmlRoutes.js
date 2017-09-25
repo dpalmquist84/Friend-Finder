@@ -3,9 +3,13 @@ const path = require("path");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+>>>>>>> parent of 8b37625... changes to the routes
 =======
 
 >>>>>>> parent of 8b37625... changes to the routes
@@ -37,6 +41,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "/../public/home.html"));
   });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   app.get("/home", function(req, res) {
     res.sendFile(path.join(__dirname, "/../public/home.html"));
@@ -72,6 +77,11 @@ app.listen(PORT, function() {
   });
 >>>>>>> parent of 8b37625... changes to the routes
 >>>>>>> 793694c32cd1c14cd8244a74b1d8271cf41856e7
+=======
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
+>>>>>>> parent of 8b37625... changes to the routes
 =======
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
