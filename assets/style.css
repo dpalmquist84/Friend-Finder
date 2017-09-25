@@ -1,0 +1,8 @@
+body {
+    background-image: url("pacman.jpg");
+}
+
+h1, a, label {
+    color: #fff;
+    font-weight: strong;
+}

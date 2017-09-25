@@ -137,7 +137,7 @@
       };
     
 
-    $.post("/api/new", friend)
+    $.post("/api/friends", friend)
     .done(function (data) {
       console.log(data);
       alert(`added ${friend} to friends`)

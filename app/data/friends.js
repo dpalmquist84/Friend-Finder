@@ -1,13 +1,16 @@
+<<<<<<< HEAD
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path")
 const server = require("../../server.js")
 const app = require("../../server.js")
 
+=======
+>>>>>>> 2cdf4114a030655ddc03fa527b84e09faafe6638
 
-var friends = [];
 
 
+<<<<<<< HEAD
 
   
 function post(){
@@ -25,3 +28,9 @@ app.post("/api/new", function(req, res) {
 }
 
 module.exports = post();
+=======
+ var friendsArray = [];
+
+
+module.exports = friendsArray;
+>>>>>>> 2cdf4114a030655ddc03fa527b84e09faafe6638
